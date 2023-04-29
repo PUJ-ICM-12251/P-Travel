@@ -92,7 +92,15 @@
                 android:text="Perfil"
                 android:textAlignment="center" />
 
+            <Button
+                android:id="@+id/MapBoton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mapa" />
+
         </LinearLayout>
+
+
 
     </LinearLayout>
 </LinearLayout>
