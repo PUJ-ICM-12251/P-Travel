@@ -50,7 +50,21 @@ class MainActivity2 : AppCompatActivity() {
             finish()
 
         }
+
+        val mapButton = findViewById<TextView>(R.id.MapBoton)
+        mapButton.setOnClickListener{
+
+            val intento: Intent = Intent(this, MapActivity::class.java)
+
+            startActivity(intento)
+
+            finish()
+
+        }
+
     }
+
+
 
 
 }
