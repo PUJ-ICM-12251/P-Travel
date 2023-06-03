@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
@@ -38,6 +39,9 @@
         <activity
             android:name=".MainActivity2"
             android:exported="true" />
+        <activity
+            android:name=".MapActivity"
+            android:exported="true" />
 
 
 
@@ -52,8 +56,12 @@
         </activity>
 
         <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="@string/my_map_api_key"/>
+        android:name="com.google.android.geo.API_KEY"
+        android:value="@string/my_map_api_key" />
+
+        <meta-data
+            android:name="com.google.android.places.API_KEY"
+            android:value="@string/my_places_api_key" />
     </application>
 
 </manifest>

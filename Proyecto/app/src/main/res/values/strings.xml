@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Proyecto</string>
-    <string name="my_map_api_key">AIzaSyCZ0t-7fFoImAHTtnEbMxLiMRUXVGKIYvc</string>
+    <string name="my_map_api_key">AIzaSyBOQx2zBzDK2jj_OGjK6ftofcVj0ep2HME</string>
+    <string name="my_places_api_key">AIzaSyBMW56qe-ruHjjnDEAFCanQzpIUH0SK1ok</string>
+    <string name="route_key">5b3ce3597851110001cf6248ee4969aca01342f28e7e8fcbe1061317</string>
 </resources>

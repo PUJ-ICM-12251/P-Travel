@@ -51,8 +51,8 @@ class MainActivity2 : AppCompatActivity() {
 
         }
 
-        val mapButton = findViewById<TextView>(R.id.MapBoton)
-        mapButton.setOnClickListener{
+        val MapButton = findViewById<TextView>(R.id.MapButton)
+        MapButton.setOnClickListener{
 
             val intento: Intent = Intent(this, MapActivity::class.java)
 

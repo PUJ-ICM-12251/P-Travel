@@ -76,6 +76,8 @@
                 android:text="Volver"
                 android:textAlignment="center" />
 
+
+
             <Button
                 android:id="@+id/botonForo"
                 android:layout_width="0dp"
@@ -93,10 +95,12 @@
                 android:textAlignment="center" />
 
             <Button
-                android:id="@+id/MapBoton"
-                android:layout_width="wrap_content"
+                android:id="@+id/MapButton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:text="Mapa" />
+                android:text="Mapa"
+                android:textAlignment="center" />
 
         </LinearLayout>
 
